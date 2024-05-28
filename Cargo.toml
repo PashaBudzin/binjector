@@ -1,0 +1,12 @@
+[package]
+name = "binjector"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.4"
+colored = "2.1.0"
+regex = "1.10.4"
+serde = { version = "1.0.203", features = ["derive"] }
+shellexpand = "3.1.0"
+toml = "0.8.13"
